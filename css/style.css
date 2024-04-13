@@ -1,0 +1,1642 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: sans-serif;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+
+/*Header +  Banner section START */
+
+.header_Section {
+	width: 100%;
+	background: url(../images/headerbg.png) center top no-repeat;
+	background-size: cover;
+	padding-bottom: 45px;
+	position: relative;
+}
+
+.header_Section .container-fluid {
+	width: 100%;
+	padding-right: 18px;
+	padding-left: 65px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bg-light {
+	background-color: transparent!important;
+	padding-top: 6px;
+}
+
+.bg-light img {
+	margin-top: -89px;
+	margin-left: -20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	color: #3d2514;
+	background: transparent;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+	color: #fff;
+	background: transparent;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	font-family: 'Bebas Neue', cursive;
+	transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	background: transparent;
+	font-size: 22px;
+	color: #3d2514;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin-right: 32px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	background: transparent;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin-right: 32px;
+	font-family: 'Bebas Neue', cursive;
+	transition: .5s;
+}
+
+.head_two {
+	text-align: right;
+	padding-top: 22px;
+	margin-right: 60px;
+}
+
+.head_two img {
+	margin-right: 10px;
+}
+
+.head_two h5 {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+}
+
+.banner_Section {
+	width: 100%;
+	padding-bottom: 200px;
+}
+
+.banner_Section .banner_text {
+	padding-top: 80px;
+}
+
+.banner_Section .banner_text p {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	width: 54%;
+	padding: 7px 15px;
+	border: 2px dashed;
+}
+
+.banner_Section .banner_text h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 115px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #3d2514;
+	text-shadow: 5px 5px #fee8bc;
+}
+
+.banner_Section .banner_text h3 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 75px;
+	font-weight: 500;
+	color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 5px 5px #fee8bc;
+}
+
+.banner_img {
+	text-align: left;
+}
+
+.banner_img img {
+	position: absolute;
+	top: 16%;
+	width: 100%;
+	left: -70px;
+	-webkit-filter: drop-shadow(5px 5px 5px #666666);
+	filter: drop-shadow(40px -71px 99px #ffde9c);
+}
+
+.superprice {
+	position: absolute;
+	background: url(../images/Design.png) center top no-repeat;
+	top: 362px;
+	right: 538px;
+	text-align: center;
+}
+
+.superprice p {
+	font-size: 32px;
+	padding: 55px;
+	font-weight: 300;
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.superprice span {
+	font-size: 72px;
+}
+
+
+/*Header +  Banner section END*/
+
+
+/*.gallery_section  START*/
+
+.gallery_section {
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.gallery_section .gallery_main {
+	margin: 0px 126px;
+}
+
+.gallery_section .gallery_main .gallery_left {
+	background: url(../images/BurG.png) center top no-repeat;
+	width: 100%;
+	padding-top: 26px;
+	padding-left: 34px;
+	padding-bottom: 333px;
+}
+
+.gallery_section .gallery_main .gallery_left h5 {
+	color: #fff;
+	background: transparent;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.gallery_section .gallery_main .gallery_left h3 {
+	color: #fff;
+	background: transparent;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.gallery_section .gallery_main .gallery_right1 {
+	background: url(../images/BurG2.png) center top no-repeat;
+	width: 100%;
+	padding-top: 26px;
+	padding-left: 34px;
+	padding-bottom: 98px;
+}
+
+.gallery_section .gallery_main .gallery_right1 h5 {
+	color: #fff;
+	background: transparent;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.gallery_section .gallery_main .gallery_right1 h3 {
+	color: #fff;
+	background: transparent;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.gallery_section .gallery_main .gallery_right2 {
+	background: url(../images/BurG3.png) center top no-repeat;
+	width: 100%;
+	padding-top: 26px;
+	padding-left: 34px;
+	padding-bottom: 98px;
+}
+
+.gallery_section .gallery_main .gallery_right2 h5 {
+	color: #fff;
+	background: transparent;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.gallery_section .gallery_main .gallery_right2 h3 {
+	color: #fff;
+	background: transparent;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+
+/*gallery_section end*/
+
+
+/*burger_section START*/
+
+.burger_section {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+.burger_section .burger_main {}
+
+.burger_section .burger_main .burger_inner {
+	text-align: center;
+}
+
+.burger_section .burger_main .burger_inner .burger_head {}
+
+.burger_section .burger_main .burger_inner .burger_head h5 {
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 9px 18px;
+	font-size: 25px;
+	font-weight: 400;
+	color: #3d2514;
+	letter-spacing: 0px;
+	font-family: 'Bebas Neue', cursive;
+	background: #ffc045;
+}
+
+.burger_section .burger_main .burger_inner h1 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 46px;
+	font-weight: 400;
+	padding-top: 20px;
+	color: #3d2514;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+
+.burger_section .burger_main .burger_inner p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #3d2514;
+}
+
+.burger_images {
+	padding-top: 60px;
+}
+
+.burger_images .bur_img {
+	text-align: center;
+}
+
+.burger_images .bur_img img {
+	width: 88%;
+    padding-bottom: 10px;
+}
+
+.burger_images .bur_img h3 {
+	color: #3d2514;
+    background: transparent;
+    font-size: 38px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.burger_images .bur_img p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	padding-top: 10px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #3d2514;
+}
+
+.burger_button {
+	padding-top: 16px;
+}
+
+.burger_middle {
+	text-align: center;
+}
+
+.burger_middle img {
+	width: 81%;
+	padding-bottom: 10px;
+}
+
+.burger_middle h3 {
+	color: #3d2514;
+    background: transparent;
+    font-size: 38px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.burger_middle p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	padding-top: 10px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #3d2514;
+}
+
+.burger_middle .burger_button {
+	padding-top: 16px;
+}
+
+.burger_middle .burger_button .btn-info {
+	border-radius: 0px;
+	padding: 10px 30px;
+	border: 1px solid #bf2222;
+	font-size: 19px;
+	background: #bf2222;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.burger_middle .burger_button .btn-info:hover {
+	border-radius: 0px;
+	padding: 10px 30px;
+	border: 1px solid #ffc045;
+	font-size: 19px;
+	background: #ffc045;
+	transition: 1s;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.burger_button .btn-info {
+	border-radius: 0px;
+	padding: 10px 30px;
+	border: 1px solid #bf2222;
+	font-size: 19px;
+	background: #bf2222;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.burger_button .btn-info:hover {
+	border-radius: 0px;
+	padding: 10px 30px;
+	border: 1px solid #ffc045;
+	font-size: 19px;
+	background: #ffc045;
+	transition: 1s;
+	box-shadow: -1px 9px 22px -14px black;
+	transition: .5s;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+
+/*testimonal_section Start*/
+
+.tesimonial {
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.tesimonial .owl-carousel {
+	box-shadow: -7px 44px 88px -67px black;
+	padding: 26px 20px;
+}
+
+.testi_inner {
+	width: 100%;
+}
+
+.media-body {
+	margin-top: 10px;
+	padding: 6px 40px;
+}
+
+.testi_inner .media img {
+	width: 98%;
+	padding-left: 0px;
+}
+
+.testi_inner .media .media-body h5 {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 400;
+	color: #3d2514;
+	letter-spacing: 0px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.testi_inner .media .media-body h2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	padding-top: 0px;
+	color: #3d2514;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+
+.testi_inner .media .media-body p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	padding-top: 4px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #3d2514;
+	letter-spacing: 2px;
+}
+
+.owl-carousel .owl-stage {
+	position: relative;
+	margin-top: 45px;
+	margin-bottom: 0px;
+	/*    touch-action: manipulation;*/
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+/*testimonal_section End*/
+
+
+/*booking_Section start*/
+
+.booking_Section {
+	width: 100%;
+	padding-top: 50px;
+	background: url(../images/111e.png) center top no-repeat;
+	padding-bottom: 272px;
+	background-size: cover;
+}
+
+.booking_Section .booking_main {
+	text-align: center;
+	margin: 0px 137px;
+	padding-top: 101px;
+}
+
+.booking_Section .booking_main .booking_text {}
+
+.booking_Section .booking_main .booking_text h5 {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 400;
+	color: #3d2514;
+	letter-spacing: 0px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.booking_Section .booking_main .booking_text h2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	padding-top: 0px;
+	color: #3d2514;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+
+.form_main {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.form-row {}
+
+.form-row .form-control {
+	padding: 30px;
+	width: 400px;
+	margin-bottom: 28px;
+}
+
+.form-row .btn-primary {
+	border-radius: 5px;
+	border: 1px solid #bf2222;
+	font-size: 26px;
+	background: #bf2222;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Alfa Slab One', cursive;
+	padding: 11px 97px;
+	margin-right: 8px;
+}
+
+.form-row .btn-primary:hover {
+	border-radius: 5px;
+	border: 1px solid #ffc045;
+	font-size: 26px;
+	background: #ffc045;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+	font-family: 'Alfa Slab One', cursive;
+	padding: 11px 97px;
+	margin-right: 8px;
+	transition: .5s ease-in-out;
+}
+
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #495057;
+	outline: 0;
+	box-shadow: none;
+}
+
+
+/*booking_Section END*/
+
+.footer_section {
+	padding-bottom: 40px;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	margin-top: -94px;
+}
+
+.footer_section .container-fluid {
+	padding: 0px 50px;
+}
+
+.footer_main {
+	width: 100%;
+	background: url(../images/Group6.png) center top no-repeat;
+	background-size: cover;
+}
+
+.footer_left {
+	padding-top: 85px;
+	padding-left: 50px;
+}
+
+.footer_left img {}
+
+.footer_left p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-top: 34px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.footer_right {
+	padding-top: 200px;
+	padding-left: 50px;
+}
+
+.footer_right h4 {
+	color: #fff;
+	background: transparent;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.footer_right i {
+	margin-right: 14px;
+	font-size: 33px;
+}
+
+.fa-envelope {
+	width: 7%;
+}
+
+.footer_last {
+	width: 100%;
+	padding-top: 140px;
+}
+
+.footer_last .last_left {
+	margin-left: 50px;
+}
+
+.footer_last .last_left p {
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: 100;
+	color: #fff;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.foot_social {
+	width: 100%;
+	margin-left: -35px;
+	text-align: right;
+}
+
+.foot_social ul {}
+
+.foot_social ul li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 18px;
+}
+
+.foot_social ul li a {}
+
+.foot_social ul li a i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #fff;
+	border-radius: 33px;
+	background: #fff;
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+}
+
+.foot_social ul li a i:hover {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #bf2222;
+	border-radius: 33px;
+	background: #bf2222;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+/***************************************************************************************************************
+   							***********************  RESPONSIVE  ***********************
+***************************************************************************************************************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.header_Section {
+		width: 100%;
+		background: url(../images/headerbg.png) center top no-repeat;
+		background-size: cover;
+		padding-bottom: 68px;
+		position: relative;
+	}
+	.header_Section .container-fluid {
+		width: 100%;
+		padding-right: 21px;
+		padding-left: 29px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.head_two {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		margin-right: 0px;
+	}
+	.head_two h5 {
+		font-size: 31px;
+		font-weight: 600;
+		font-family: 'Montserrat', sans-serif;
+		color: #3d2514;
+	}
+	.head_two img {
+		margin-right: 2px;
+		padding-top: 4px;
+	}
+	.bg-light {
+		background-color: transparent!important;
+		padding-top: 6px;
+	}
+	.bg-light img {
+		margin-top: 0px;
+    	padding-bottom: 10px;
+	}
+	.banner_Section .banner_text {
+		padding-top: 10px;
+	}
+	.banner_Section .banner_text p {
+		font-family: 'Bebas Neue', cursive;
+		font-size: 18px;
+		width: 100%;
+		padding: 0px 17px;
+		border: 2px dashed;
+	}
+	.banner_Section .banner_text h1 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 60px;
+		font-weight: 500;
+		text-transform: uppercase;
+		color: #3d2514;
+		text-shadow: 4px 4px #fee8bc;
+	}
+	.banner_Section .banner_text h3 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 60px;
+		font-weight: 500;
+		line-height: 45px;
+		color: #3d2514;
+		text-transform: uppercase;
+		text-shadow: 5px 5px #fee8bc;
+	}
+	.banner_img img {
+		position: absolute;
+		top: -7px;
+		width: 90%;
+		left: 41px;
+		-webkit-filter: drop-shadow(1px 2px 1px #666666);
+		filter: drop-shadow(55px 18px 108px #ffde9c);
+	}
+	.superprice {
+		position: absolute;
+		background: url(../images/Design.png) center top no-repeat;
+		top: 60px;
+		right: 182px;
+		text-align: center;
+	}
+	.superprice p {
+		font-size: 30px;
+		padding: 56px;
+		font-weight: 300;
+		color: #fff;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.superprice span {
+		font-size: 66px;
+	}
+	.gallery_section {
+		width: 100%;
+		padding-top: 45px;
+		padding-bottom: 30px;
+	}
+	.gallery_section .gallery_main {
+		margin: 0px 0px;
+	}
+	.gallery_section .gallery_main .gallery_left {
+		background: url(../images/BurG.png) center top no-repeat;
+		width: 100%;
+		padding-top: 30px;
+		padding-left: 32px;
+		padding-bottom: 338px;
+	}
+	.gallery_section .gallery_main .gallery_right1 {
+		background: url(../images/BurG2.png) center top no-repeat;
+		width: 100%;
+		padding-top: 22px;
+		padding-left: 18px;
+		padding-bottom: 79px;
+	}
+	.gallery_section .gallery_main .gallery_right2 {
+		background: url(../images/BurG3.png) center top no-repeat;
+		width: 100%;
+		padding-top: 22px;
+		padding-left: 18px;
+		padding-bottom: 98px;
+	}
+	.burger_section {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.burger_section .burger_main .burger_inner .burger_head h5 {
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 9px 18px;
+		font-size: 25px;
+		font-weight: 400;
+		color: #3d2514;
+		letter-spacing: 0px;
+		font-family: 'Bebas Neue', cursive;
+		background: #ffc045;
+	}
+	.burger_section .burger_main .burger_inner h1 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 30px;
+		font-weight: 400;
+		padding-top: 12px;
+		color: #3d2514;
+		padding-bottom: 0px;
+		text-transform: uppercase;
+	}
+	.burger_section .burger_main .burger_inner p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.burger_images {
+		padding-top: 00px;
+		text-align: center;
+	}
+	.burger_images .bur_img img {
+		width: 100%;
+		padding-bottom: 14px;
+		margin-left: 12px;
+	}
+	.burger_images .bur_img h3 {
+		color: #3d2514;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 0px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.burger_images .bur_img p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 21px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.burger_button {
+		padding-top: 0px;
+	}
+	.burger_button .btn-info {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #bf2222;
+		font-size: 14px;
+		background: #bf2222;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_button .btn-info:hover {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #ffc045;
+		font-size: 14px;
+		background: #ffc045;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_middle {
+		text-align: center;
+		padding-top: 35px;
+	}
+	.burger_middle img {
+		width: 81%;
+		padding-bottom: 10px;
+	}
+	.burger_middle h3 {
+		color: #3d2514;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 0px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.burger_middle p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 21px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.burger_middle .burger_button {
+		padding-top: 0px;
+	}
+	.burger_middle .burger_button .btn-info {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #bf2222;
+		font-size: 14px;
+		background: #bf2222;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_middle .burger_button .btn-info:hover {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #ffc045;
+		font-size: 14px;
+		background: #ffc045;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_images .bur_img {
+		text-align: center;
+		padding-top: 35px;
+	}
+	.burger_images .bur_img img {
+		width: 90%;
+		padding-bottom: 10px;
+		margin-left: 12px;
+	}
+	.burger_images .bur_img h3 {
+		color: #3d2514;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 0px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.burger_images .bur_img p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 21px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.tesimonial {
+		width: 100%;
+		padding-bottom: 1px;
+	}
+	.testi_inner .media .media-body h5 {
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: 24px;
+		font-weight: 400;
+		color: #3d2514;
+		letter-spacing: 0px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.testi_inner .media .media-body h2 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 25px;
+		font-weight: 400;
+		padding-top: 0px;
+		color: #3d2514;
+		padding-bottom: 8px;
+		text-transform: uppercase;
+	}
+	.testi_inner .media .media-body p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 0px;
+		line-height: 20px;
+		font-weight: 500;
+		color: #3d2514;
+		letter-spacing: 2px;
+	}
+	.tesimonial .owl-carousel {
+		box-shadow: -7px 44px 88px -67px black;
+		padding: 0px 19px;
+	}
+	.media-body {
+		margin-top: 15px;
+		padding: 0px 20px;
+	}
+	.booking_Section .booking_main {
+		text-align: center;
+		margin: 0px 0px;
+		padding-top: 30px;
+	}
+	.booking_Section .booking_main .booking_text h5 {
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: 30px;
+		font-weight: 400;
+		color: #3d2514;
+		letter-spacing: 0px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.booking_Section .booking_main .booking_text h2 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 30px;
+		font-weight: 400;
+		padding-top: 0px;
+		color: #3d2514;
+		padding-bottom: 8px;
+		text-transform: uppercase;
+	}
+	.form_main {
+		text-align: center;
+		padding-top: 15px;
+	}
+	.form-row .form-control {
+    padding: 12px;
+    width: 260px;
+    margin-bottom: 23px;
+    margin-left: 60px;
+}
+	.form-row .btn-primary {
+		border-radius: 5px;
+		border: 1px solid #bf2222;
+		font-size: 18px;
+		background: #bf2222;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+		padding: 7px 59px;
+		margin-left: 2px;
+	}
+	.form-row .btn-primary:hover {
+		border-radius: 5px;
+		border: 1px solid #ffc045;
+		font-size: 18px;
+		background: #ffc045;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+		padding: 7px 59px;
+		margin-left: 10px;
+	}
+	.booking_Section {
+		width: 100%;
+		padding-top: 50px;
+		background: url(../images/111e.png) center top no-repeat;
+		padding-bottom: 100px;
+	}
+	.footer_section {
+		padding-bottom: 15px;
+		width: 100%;
+		position: absolute;
+		margin-top: 0px;
+	}
+	.footer_section .container-fluid {
+		padding: 0px 18px;
+	}
+	.footer_main {
+		width: 100%;
+		background: url(../images/Group6.png) center top no-repeat;
+		background-size: cover;
+	}
+	.footer_left {
+		padding: 50px 30px;
+	}
+	.footer_left img {
+		width: 90%;
+	}
+	.footer_left p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 30px;
+		line-height: 25px;
+		font-weight: 500;
+		color: #fff;
+	}
+	.footer_right {
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+	.footer_right h4 {
+		color: #fff;
+		background: transparent;
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.footer_right i {
+		margin-right: 20px;
+		font-size: 22px;
+	}
+	.footer_last {
+		width: 100%;
+		padding-top: 40px;
+	}
+	.footer_last .last_left {
+		text-align: center;
+		margin-left: 0px;
+	}
+	.footer_last .last_left p {
+		text-transform: uppercase;
+		font-size: 16px;
+		padding-top: 10px;
+		font-weight: 100;
+		color: #fff;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.foot_social {
+		width: 100%;
+		text-align: center;
+		margin-left: 0px;
+	}
+	.navbar-light .navbar-nav .active>.nav-link {
+		color: #3d2514;
+		background: transparent;
+		font-size: 22px;
+		padding-top: 40px;
+		font-weight: 400;
+		letter-spacing: 4px;
+		font-family: 'Bebas Neue', cursive;
+	}
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.header_Section {
+		width: 100%;
+		background: url(../images/headerbg.png) center top no-repeat;
+		background-size: cover;
+		padding-bottom: 92px;
+		position: relative;
+	}
+	.header_Section .container-fluid {
+		width: 100%;
+		padding-right: 21px;
+		padding-left: 29px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.head_two {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		margin-right: 0px;
+	}
+	.head_two h5 {
+		font-size: 32px;
+		font-weight: 600;
+		font-family: 'Montserrat', sans-serif;
+		color: #3d2514;
+	}
+	.head_two img {
+		margin-right: 2px;
+		padding-top: 4px;
+	}
+	.bg-light {
+		background-color: transparent!important;
+		padding-top: 6px;
+	}
+	.bg-light img {
+		margin-top: 0px;
+	}
+	.banner_Section .banner_text {
+		padding-top: 30px;
+	}
+	.banner_Section .banner_text p {
+		font-family: 'Bebas Neue', cursive;
+		font-size: 20px;
+		width: 100%;
+		padding: 7px 23px;
+		border: 2px dashed;
+	}
+	.banner_Section .banner_text h1 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 60px;
+		font-weight: 500;
+		text-transform: uppercase;
+		color: #3d2514;
+		text-shadow: 4px 4px #fee8bc;
+	}
+	.banner_Section .banner_text h3 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 60px;
+		font-weight: 500;
+		color: #3d2514;
+		text-transform: uppercase;
+		text-shadow: 5px 5px #fee8bc;
+	}
+	.banner_img img {
+		position: absolute;
+		top: -26px;
+		width: 90%;
+		left: 44px;
+		-webkit-filter: drop-shadow(1px 2px 1px #666666);
+		filter: drop-shadow(55px 18px 108px #ffde9c);
+	}
+	.superprice {
+		position: absolute;
+		background: url(../images/Design.png) center top no-repeat;
+		top: 60px;
+		right: 212px;
+		text-align: center;
+	}
+	.superprice p {
+		font-size: 30px;
+		padding: 56px;
+		font-weight: 300;
+		color: #fff;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.superprice span {
+		font-size: 66px;
+	}
+	.gallery_section {
+		width: 100%;
+		padding-top: 45px;
+		padding-bottom: 30px;
+	}
+	.gallery_section .gallery_main {
+		margin: 0px 0px;
+	}
+	.gallery_section .gallery_main .gallery_left {
+		background: url(../images/BurG.png) center top no-repeat;
+		width: 100%;
+		padding-top: 30px;
+		padding-left: 32px;
+		padding-bottom: 338px;
+	}
+	.gallery_section .gallery_main .gallery_right1 {
+		background: url(../images/BurG2.png) center top no-repeat;
+		width: 100%;
+		padding-top: 22px;
+		padding-left: 18px;
+		padding-bottom: 79px;
+	}
+	.gallery_section .gallery_main .gallery_right2 {
+		background: url(../images/BurG3.png) center top no-repeat;
+		width: 100%;
+		padding-top: 22px;
+		padding-left: 18px;
+		padding-bottom: 98px;
+	}
+	.burger_section {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.burger_section .burger_main .burger_inner .burger_head h5 {
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 9px 18px;
+		font-size: 25px;
+		font-weight: 400;
+		color: #3d2514;
+		letter-spacing: 0px;
+		font-family: 'Bebas Neue', cursive;
+		background: #ffc045;
+	}
+	.burger_section .burger_main .burger_inner h1 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 30px;
+		font-weight: 400;
+		padding-top: 12px;
+		color: #3d2514;
+		padding-bottom: 0px;
+		text-transform: uppercase;
+	}
+	.burger_section .burger_main .burger_inner p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.burger_images {
+		padding-top: 00px;
+		text-align: center;
+	}
+	.burger_images .bur_img img {
+		width: 100%;
+		padding-bottom: 14px;
+		margin-left: 12px;
+	}
+	.burger_images .bur_img h3 {
+		color: #3d2514;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 0px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.burger_images .bur_img p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 21px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.burger_button {
+		padding-top: 0px;
+	}
+	.burger_button .btn-info {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #bf2222;
+		font-size: 14px;
+		background: #bf2222;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_button .btn-info:hover {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #ffc045;
+		font-size: 14px;
+		background: #ffc045;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_middle {
+		text-align: center;
+		padding-top: 50px;
+	}
+	.burger_middle img {
+		width: 81%;
+		padding-bottom: 10px;
+	}
+	.burger_middle h3 {
+		color: #3d2514;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 0px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.burger_middle p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 21px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.burger_middle .burger_button {
+		padding-top: 0px;
+	}
+	.burger_middle .burger_button .btn-info {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #bf2222;
+		font-size: 14px;
+		background: #bf2222;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_middle .burger_button .btn-info:hover {
+		border-radius: 0px;
+		padding: 6px 23px;
+		border: 1px solid #ffc045;
+		font-size: 14px;
+		background: #ffc045;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+	}
+	.burger_images .bur_img {
+		text-align: center;
+		padding-top: 50px;
+	}
+	.burger_images .bur_img img {
+		width: 100%;
+		padding-bottom: 10px;
+		margin-left: 12px;
+	}
+	.burger_images .bur_img h3 {
+		color: #3d2514;
+		background: transparent;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 0px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.burger_images .bur_img p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 21px;
+		font-weight: 500;
+		color: #3d2514;
+	}
+	.tesimonial {
+		width: 100%;
+		padding-bottom: 1px;
+	}
+	.testi_inner .media .media-body h5 {
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: 24px;
+		font-weight: 400;
+		color: #3d2514;
+		letter-spacing: 0px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.testi_inner .media .media-body h2 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 25px;
+		font-weight: 400;
+		padding-top: 0px;
+		color: #3d2514;
+		padding-bottom: 8px;
+		text-transform: uppercase;
+	}
+	.testi_inner .media .media-body p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 0px;
+		line-height: 20px;
+		font-weight: 500;
+		color: #3d2514;
+		letter-spacing: 2px;
+	}
+	.tesimonial .owl-carousel {
+		box-shadow: -7px 44px 88px -67px black;
+		padding: 26px 19px;
+	}
+	.media-body {
+		margin-top: 15px;
+		padding: 0px 20px;
+	}
+	.booking_Section .booking_main {
+		text-align: center;
+		margin: 0px 0px;
+		padding-top: 30px;
+	}
+	.booking_Section .booking_main .booking_text h5 {
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: 30px;
+		font-weight: 400;
+		color: #3d2514;
+		letter-spacing: 0px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.booking_Section .booking_main .booking_text h2 {
+		font-family: 'Alfa Slab One', cursive;
+		font-size: 30px;
+		font-weight: 400;
+		padding-top: 0px;
+		color: #3d2514;
+		padding-bottom: 8px;
+		text-transform: uppercase;
+	}
+	.form_main {
+		text-align: center;
+		padding-top: 15px;
+	}
+	.form-row .form-control {
+		padding: 12px;
+		width: 290px;
+		margin-bottom: 23px;
+		margin-left: 45px;
+	}
+	.form-row .btn-primary {
+	    border-radius: 5px;
+	    border: 1px solid #bf2222;
+	    font-size: 18px;
+	    background: #bf2222;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-weight: 400;
+	    font-family: 'Alfa Slab One', cursive;
+	    padding: 7px 73px;
+	    margin-left: 0px;
+}
+	.form-row .btn-primary:hover {
+		border-radius: 5px;
+		border: 1px solid #ffc045;
+		font-size: 19px;
+		background: #ffc045;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-family: 'Alfa Slab One', cursive;
+		padding: 7px 73px;
+		margin-right: 0px;
+	}
+	.booking_Section {
+		width: 100%;
+		padding-top: 50px;
+		background: url(../images/111e.png) center top no-repeat;
+		padding-bottom: 100px;
+	}
+	.footer_section {
+		padding-bottom: 15px;
+		width: 100%;
+		position: absolute;
+		margin-top: 0px;
+	}
+	.footer_section .container-fluid {
+		padding: 0px 18px;
+	}
+	.footer_main {
+		width: 100%;
+		background: url(../images/Group6.png) center top no-repeat;
+		background-size: cover;
+	}
+	.footer_left {
+		padding: 50px 30px;
+	}
+	.footer_left img {
+		width: 90%;
+	}
+	.footer_left p {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		padding-top: 30px;
+		line-height: 25px;
+		font-weight: 500;
+		color: #fff;
+	}
+	.footer_right {
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+	.footer_right h4 {
+		color: #fff;
+		background: transparent;
+		font-size: 18px;
+		font-weight: 400;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.footer_right i {
+		margin-right: 20px;
+		font-size: 22px;
+	}
+	.footer_last {
+		width: 100%;
+		padding-top: 40px;
+	}
+	.footer_last .last_left {
+		text-align: center;
+		margin-left: 0px;
+	}
+	.footer_last .last_left p {
+		text-transform: uppercase;
+		font-size: 16px;
+		padding-top: 10px;
+		font-weight: 100;
+		color: #fff;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', cursive;
+	}
+	.foot_social {
+		width: 100%;
+		text-align: center;
+		margin-left: 0px;
+	}
+	.navbar-light .navbar-nav .active>.nav-link {
+		color: #3d2514;
+		background: transparent;
+		font-size: 22px;
+		padding-top: 40px;
+		font-weight: 400;
+		letter-spacing: 4px;
+		font-family: 'Bebas Neue', cursive;
+	}
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	//CSS
+}
